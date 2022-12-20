@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 id="header">
+      Generate a <span id="green-header">random password</span>
+    </h1>
+    <h5 id="sub-header">Never use an insecure password again.</h5>
+    <button id="btn-password-generate" onClick="generatePassword()">
+      Generate Password
+    </button>
+    <div id="password-results">
+      <p class="password-result" id="passwordOne-el"></p>
+      <p class="password-result" id="passwordTwo-el"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

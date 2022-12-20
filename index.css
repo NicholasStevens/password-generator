@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: 1F2937;
+  width: 550px;
+  height: 550px;
+  margin: auto;
+}
+
+#btn-password-generate {
+  background-color: 10B981;
+  color: white;
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+#header {
+  color: white;
+}
+
+#sub-header {
+  color: white;
+}
+
+#green-header {
+  color: 10B981;
+}
+
+#password-results {
+  display: flex;
+  border-top: 2px solid grey;
+  text-align: center;
+  justify-content: center;
+}
+
+.password-result {
+  border: none;
+  border-radius: 12px;
+  margin-right: 20px;
+  color: 10B981;
+  background-color: 273549;
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+}
