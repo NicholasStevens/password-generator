@@ -96,7 +96,7 @@ let passwordLength = 15;
 let passwordOneEl = document.getElementById("passwordOne-el");
 let passwordTwoEl = document.getElementById("passwordTwo-el");
 function getRandomCharacter() {
-  let randomChar = Math.floor(Math.random() * characters.length + 1);
+  let randomChar = Math.floor(Math.random() * characters.length);
   return characters[randomChar];
 }
 
