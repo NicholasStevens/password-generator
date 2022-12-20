@@ -13,15 +13,21 @@ body {
   height: 30px;
   border: none;
   border-radius: 12px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
 #header {
   color: white;
+  width: 250px;
+  margin-top: 70px;
+  margin-bottom: 0px;
 }
 
 #sub-header {
   color: white;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 #green-header {
@@ -31,8 +37,7 @@ body {
 #password-results {
   display: flex;
   border-top: 2px solid grey;
-  text-align: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .password-result {
@@ -44,4 +49,6 @@ body {
   width: 200px;
   height: 30px;
   font-size: 17px;
+  text-align: center;
+  padding-top: 8px;
 }
